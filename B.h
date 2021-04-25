@@ -14,7 +14,7 @@ public:
     {
         this->y = y;
     }
-    void P(A& a) { if( &a ) throw a; }
+    void P(A& a) { throw a; }
     void P(B& b) { cout << "method P(B);"; }
 };
 
